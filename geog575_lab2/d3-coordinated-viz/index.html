@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>D3-coordinated-viz</title>
+
+    <!--put your external stylesheet links here-->
+    <link rel="stylesheet" href="css/style.css">
+<!--    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
+<!--    <script type="text/javascript" src="lib/topojson.min.js"></script>-->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.js"></script>-->
+
+
+
+
+
+</head>
+
+<body>
+<style>
+    body {
+        background-image: url('data/housing_1800.png');background-repeat: no-repeat;
+    }
+</style>
+
+<style>
+    h2{text-shadow: 2px 2px 4px #000000;}
+    p{text-shadow: 2px 2px 4px #000000;}
+    </style>
+
+<h2 style = "color: #00008b; font-size:65.0px;padding-bottom:-30px;  "> Searching for housing in the USA</h2>
+<p style="color: lightblue; background-color: darkblue;font-size: 20px; "><b>We are going to show the availability of housing in the USA,
+    based on total housing units, vacant housing units, total housing units for rent, and vacant housing units for sale.</b></p>
+
+<p2 style = "color: white; background-color: #041669;  font-size: 15px;"> Sources: American Community Survey 2016 to 2020. Downloaded from: Census Bureau's API American Community Survey.<br> Created by Courtney Bahrs and Andrew Sirota
+</br></p2>
+
+
+
+<div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+     Finding available affordable housing is a struggle for millions of Americans every year. One factor in increasing the chance of locating available housing in your state is defined by how many units are available. We seek to inform our users of the amount of housing in their state to allow them to make to best decision
+</div>
+
+<div class= "container"></div>
+
+<script src="js/main2.js" type="text/javascript"></script>
+
+<!--put your initial page content here-->
+</body>
+
+<!--you can also use this space for internal scripts or stylesheets;
+place these within <script> or <style> tags-->
+
+<!--put your external script links here-->
+
+    <!--libraries-->
+
+
+    <!--<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="lib/d3.js"></script>
+    <script type="text/javascript" src="lib/d3-selection-multi.min.js"></script>
+    <script type="text/javascript" src="lib/topojson.min.js"></script>
+    <script type="text/javascript" src="lib/simple-statistics.js"></script>
+-->
+
+    <!-- main script -->
+
+
+
+
+</html>
